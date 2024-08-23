@@ -109,6 +109,14 @@
   transform: scale(1.1);
 }
 
+#particles-js{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	top: 0;
+	opacity: 1;
+	z-index: 1;
+}
 
 </style>
 
@@ -135,15 +143,21 @@
 	      </div>
 	    </div>
 	  </nav>
+	  
+
 	  <section id="home-section" class="hero">
+		<div id="particles-js"></div>
+    
 		  <div class="home-slider  owl-carousel">
 	       <div class="slider-item ">
 	      	<div class="overlay"></div>
 	         <div class="container">
+				
+				
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url();">
+	          	<!-- <div class="one-third js-fullheight order-md-last img" style="background-image:url();">
 	          	 <div class="overlay"></div>
-	          	</div>
+	          	</div> -->
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 		          	<div class="text">
 		          		<span class="subheading">Hello!</span>
@@ -220,7 +234,7 @@
 									  <div class="about-info">
 										<p><span class="title-s">Name: </span> <span>Vignesh Embari</span></p>
 										<p><span class="title-s">Job Role: </span> <span>Frontend Developer</span></p>
-										<p><span class="title-s">Experience: </span> <span>1 Year</span></p>
+										<p><span class="title-s">Experience: </span> <span>3 Months</span></p>
 										<p><span class="title-s">Address: </span> <span>Hyderabad, India</span></p>
 									  </div>
 									</div>
@@ -604,11 +618,17 @@
   <script src="js/jquery.stellar.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
   <script src="js/scrollax.min.js"></script>
   
   <script src="js/main.js"></script>
+
+  <script src="./js/particlesJs.js">
+    
+</script>
     
   </body>
 </html>
